@@ -27,7 +27,6 @@ To explore the trends and patterns within Nobel Prize history, I asked the follo
 4. **What are the most affiliated universities and institutions with laureates?**
 5. **Which organizations and individuals have received multiple Nobel Prizes?**
 
-
 ### Excel Skills Used
 
 - **📊 Pivot Tables**
@@ -40,7 +39,6 @@ To explore the trends and patterns within Nobel Prize history, I asked the follo
 
 This dataset compiles historical records of Nobel Prize awards. It contains data on the award year, prize category, and prize amounts (both original and inflation-adjusted). The dataset includes detailed information on laureates such as their names, birth and death details, and professional affiliations. For organizational award recipients, it also provides founding information and native names. This resource supports analyses of trends in Nobel Prize history and profiles of both individual and institutional awardees.
 
-## 1️⃣ How do median prize amounts vary across Nobel categories?
 
 ### 🔍 Skill: Power Query (ETL)
 
@@ -55,24 +53,76 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 - Then, I transformed each query by changing column types, removing unnecessary columns, cleaning incomplete birth dates, extracting founding years for organizations, filling missing values with "Organization", and removing rows with errors or null IDs.
     - 📊 nobel
 
-        ![1_1](/images/1_1.png)
+        ![1](/images/1.png)
 
     - 🛠️ nobel_affiliation
 
-        ![1_2](/images/1_2.png)
+        ![2](/images/2.png)
 
 #### 🔗 Load
 
 - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
     - 📊 nobel
 
-        ![1_3](/images/1_3.png)
+        ![3](/images/3.png)
 
     - 🛠️ nobel_affiliation
 
-        ![1_4](/images/1_4.png)
+        ![4](/images/4.png)
 
-### 📊 Analysis
+
+### 🧮 Skills: PivotTables & DAX
+
+#### 📈Pivot Table
+
+- 🔢 I created a PivotTables using the Data Model I created with Power Pivot.
+
+#### 🧮 DAX
+
+- 📊 I added new measures to calculate the median prize and median prize adjusted awarded to laureates.
+
+    	```
+    	Median Prize:=MEDIAN(nobel[prizeAmount])
+			Median Prize Adjusted:=MEDIAN(nobel[prizeAmountAdjusted])
+    	```
+
+- 🧮 I formatted the `dateAwarded` column to remove timestamps a
+
+			```
+				=FORMAT(nobel[dateAwarded], "yyyy-mm-dd")
+			```
+- 🧮 then used the `awardYear` column to fill in missing dates, ensuring every laureate had a complete award date.
+
+			```
+			=IF(
+				ISBLANK([dateAwarded]),
+				DATE([awardYear], 1, 1),
+				[dateAwarded]
+			)
+			```
+
+### 🔧 Skill: Power Pivot
+
+#### 💪 Power Pivot
+
+- 🔗 I created a data model by integrating the `nobel` and `nobel_affiliation` tables into one model.
+- 🧹 Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
+
+#### 🔗 Data Model
+
+- I created a relationship between my two tables using the `nobel_id` column.
+
+    ![5](/images/5.png)
+
+#### 📃 Power Pivot Menu
+
+- The Power Pivot menu was used to refine my data model and makes it easy to create measures.
+
+    ![6](/images/6.png)
+
+
+
+## 1️⃣ How do median prize amounts vary across Nobel categories?
 
 #### 💡 Insights
 
@@ -83,7 +133,7 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 
 - 💰 Adjusted prize values highlight that all categories have experienced significant value erosion over time, especially visible in fields like Chemistry and Literature.
 
-![1_5](/images/1_5.png)
+![1_1](/images/1_1.png)
 
 #### 🤔 So What
 
