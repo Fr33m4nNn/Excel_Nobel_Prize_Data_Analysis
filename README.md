@@ -81,21 +81,22 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 
 - 📊 I added new measures to calculate the median prize and median prize adjusted awarded to laureates.
 
-    	Median Prize:=MEDIAN(nobel[prizeAmount])
-			Median Prize Adjusted:=MEDIAN(nobel[prizeAmountAdjusted])
+  Median Prize:=MEDIAN(nobel[prizeAmount])
+
+	Median Prize Adjusted:=MEDIAN(nobel[prizeAmountAdjusted])
 
 
 - 🧮 I formatted the `dateAwarded` column to remove timestamps a
 
-				=FORMAT(nobel[dateAwarded], "yyyy-mm-dd")
+	=FORMAT(nobel[dateAwarded], "yyyy-mm-dd")
 
 - 🧮 then used the `awardYear` column to fill in missing dates, ensuring every laureate had a complete award date.
 
-			=IF(
-				ISBLANK([dateAwarded]),
-				DATE([awardYear], 1, 1),
-				[dateAwarded]
-			)
+	=IF(
+		ISBLANK([dateAwarded]),
+		DATE([awardYear], 1, 1),
+		[dateAwarded]
+	)
 
 ### 🔧 Skill: Power Pivot
 
