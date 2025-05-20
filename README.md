@@ -82,9 +82,7 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 - 📊 I added new measures to calculate the median prize and median prize adjusted awarded to laureates.
 
 ```
-  Median Prize:=MEDIAN(nobel[prizeAmount])
-
-	Median Prize Adjusted:=MEDIAN(nobel[prizeAmountAdjusted])
+  Median Prize := MEDIAN(nobel[prizeAmount])
 ```
 
 - 🧮 I formatted the `dateAwarded` column to remove timestamps
