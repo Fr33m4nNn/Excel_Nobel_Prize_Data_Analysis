@@ -82,7 +82,7 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 - 📊 I added new measures to calculate the median prize and median prize adjusted awarded to laureates.
 
 ```
-  Median Prize := MEDIAN(nobel[prizeAmount])
+  	Median Prize := MEDIAN(nobel[prizeAmount])
 ```
 
 - 🧮 I formatted the `dateAwarded` column to remove timestamps
@@ -94,9 +94,9 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 
 ```
 =IF(
-ISBLANK([dateAwarded]),
-DATE([awardYear], 1, 1),
-[dateAwarded]
+	ISBLANK([dateAwarded]),
+	DATE([awardYear], 1, 1),
+	[dateAwarded]
 )
 ```
 
