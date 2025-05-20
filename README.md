@@ -140,20 +140,36 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 
 ## 2️⃣ What’s the timeline of Nobel Prize distribution over the years?
 
+#### 💡 Insights
 
+![2_1](/images/2_1.png)
+
+#### 🤔 So What
 
 ## 3️⃣ Who are the youngest and oldest laureates across different categories?
 
+#### 💡 Insights
 
+![3_1](/images/3_1.png)
+
+#### 🤔 So What
 
 ## 4️⃣ What are the most affiliated universities and institutions with laureates?
 
+#### 💡 Insights
 
+![4_1](/images/4_1.png)
+
+#### 🤔 So What
 
 ## 5️⃣ Which organizations and individuals have received multiple Nobel Prizes?
 
 
+#### 💡 Insights
 
+![5_1](/images/5_1.png)
+
+#### 🤔 So What
 
 ## Conclusion
 
