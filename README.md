@@ -74,6 +74,21 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 
 ### 📊 Analysis
 
+#### 💡 Insights
+
+
+- 💵 Economic Sciences has the highest median prize value, both in original and inflation-adjusted amounts, followed by Peace and Physics.
+
+- 📉 Literature consistently receives the lowest median prize, even after adjusting for inflation.
+
+- 💰 Adjusted prize values highlight that all categories have experienced significant value erosion over time, especially visible in fields like Chemistry and Literature.
+
+![1_5](/images/1_5.png)
+
+#### 🤔 So What
+
+-These patterns reveal historical funding priorities and may reflect how different fields are valued economically or politically. Adjusted values also underscore the importance of context when comparing award amounts across decades.
+
 ## 2️⃣ What’s the timeline of Nobel Prize distribution over the years?
 
 
