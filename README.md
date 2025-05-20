@@ -93,11 +93,11 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 - 🧮 then used the `awardYear` column to fill in missing dates, ensuring every laureate had a complete award date.
 
 ```
-=IF(
+  =IF(
 	ISBLANK([dateAwarded]),
 	DATE([awardYear], 1, 1),
 	[dateAwarded]
-)
+  )
 ```
 
 ### 🔧 Skill: Power Pivot
