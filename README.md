@@ -88,7 +88,7 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 - 🧮 I formatted the `dateAwarded` column to remove timestamps
 
 ```
-	= FORMAT(nobel[dateAwarded], "yyyy-mm-dd")
+  = FORMAT(nobel[dateAwarded], "yyyy-mm-dd")
 ```
 - 🧮 then used the `awardYear` column to fill in missing dates, ensuring every laureate had a complete award date.
 
