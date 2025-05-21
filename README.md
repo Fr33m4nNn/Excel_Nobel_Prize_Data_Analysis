@@ -156,7 +156,7 @@ IF(
 
 #### 🤔 So What
 
-- These patterns reveal historical funding priorities and may reflect how different fields are valued economically or politically. Adjusted values also underscore the importance of context when comparing award amounts across decades.
+These patterns reveal historical funding priorities and may reflect how different fields are valued economically or politically. Adjusted values also underscore the importance of context when comparing award amounts across decades.
 
 ## 2️⃣ What’s the timeline of Nobel Prize distribution over the years?
 
@@ -172,7 +172,7 @@ IF(
 
 #### 🤔 So What
 
-- This timeline highlights how global events can disrupt even long-standing institutions like the Nobel Prize. The post-war increase in awards reflects the growth of scientific research and international cooperation. Understanding this trend is key when comparing prize patterns or analyzing laureate demographics across time.
+This timeline highlights how global events can disrupt even long-standing institutions like the Nobel Prize. The post-war increase in awards reflects the growth of scientific research and international cooperation. Understanding this trend is key when comparing prize patterns or analyzing laureate demographics across time.
 
 ## 3️⃣ Who are the youngest and oldest laureates across different categories?
 
@@ -190,7 +190,7 @@ IF(
 
 #### 🤔 So What
 
-- The Nobel Prize doesn't follow a “one age fits all” pattern — breakthrough contributions can happen early or be recognized late. The age extremes show how innovation and influence span a lifetime, from youthful passion to a legacy of persistent research.
+The Nobel Prize doesn't follow a “one age fits all” pattern — breakthrough contributions can happen early or be recognized late. The age extremes show how innovation and influence span a lifetime, from youthful passion to a legacy of persistent research.
 
 ## 4️⃣ What are the most affiliated universities and institutions with laureates?
 
@@ -208,7 +208,7 @@ IF(
 
 #### 🤔 So What
 
-- University affiliation remains a strong indicator of Nobel recognition, both in **prestige** and **prize impact**. This reinforces the influence of certain academic ecosystems in fostering groundbreaking research and innovation.
+University affiliation remains a strong indicator of Nobel recognition, both in **prestige** and **prize impact**. This reinforces the influence of certain academic ecosystems in fostering groundbreaking research and innovation.
 
 ## 5️⃣ Which organizations and individuals have received multiple Nobel Prizes?
 
@@ -240,7 +240,7 @@ Only four individuals have been awarded the Nobel Prize twice — a rare and pre
 
 #### 🤔 So What
 
-- These rare repeat recipients — both individuals and organizations — reflect exceptional, long-term contributions that transcend time and discipline. Their awards span across decades and categories, emphasizing the value of sustained impact in fields like science, peace, and humanitarian work. Adjusted prize values also highlight how recognition changes in financial terms over time, reminding us to consider both historical and present-day significance when evaluating such honors.
+These rare repeat recipients — both individuals and organizations — reflect exceptional, long-term contributions that transcend time and discipline. Their awards span across decades and categories, emphasizing the value of sustained impact in fields like science, peace, and humanitarian work. Adjusted prize values also highlight how recognition changes in financial terms over time, reminding us to consider both historical and present-day significance when evaluating such honors.
 
 ## Conclusion
 
