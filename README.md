@@ -136,40 +136,91 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 
 #### 🤔 So What
 
--These patterns reveal historical funding priorities and may reflect how different fields are valued economically or politically. Adjusted values also underscore the importance of context when comparing award amounts across decades.
+- These patterns reveal historical funding priorities and may reflect how different fields are valued economically or politically. Adjusted values also underscore the importance of context when comparing award amounts across decades.
 
 ## 2️⃣ What’s the timeline of Nobel Prize distribution over the years?
 
 #### 💡 Insights
 
+- 📈 The number of Nobel Prizes awarded per year has steadily increased over time, especially since the 1950s.
+
+- 🕳️ Sharp drops are observed during major global conflicts — notably World War I (1914–1918) and World War II (1939–1945), when few or no prizes were awarded.
+
+- 🔄 In recent decades, the total number of prizes per year has become more consistent, peaking in the late 1990s and 2000s.
+
 ![2_1](/images/2_1.png)
 
 #### 🤔 So What
 
+- This timeline highlights how global events can disrupt even long-standing institutions like the Nobel Prize. The post-war increase in awards reflects the growth of scientific research and international cooperation. Understanding this trend is key when comparing prize patterns or analyzing laureate demographics across time.
+
 ## 3️⃣ Who are the youngest and oldest laureates across different categories?
 
-#### 💡 Insights
+#### 💡 💡 Insights
+
+- 🧓 Oldest Laureate: John B. Goodenough received the Nobel Prize in Chemistry at 97, making him the oldest Nobel laureate ever.
+
+- 👧 Youngest Laureate: Malala Yousafzai was awarded the Peace Prize at just 17, becoming the youngest Nobel laureate in history.
+
+- 📊 Most of the oldest laureates were recognized in their late 80s and 90s, often for work done decades earlier, reflecting long-term impact and recognition later in life.
+
+- 🌟 In contrast, the youngest laureates were typically awarded in their 20s or early 30s, suggesting early breakthroughs or significant activism, especially in Peace and Physics.
 
 ![3_1](/images/3_1.png)
 
 #### 🤔 So What
 
+- The Nobel Prize doesn't follow a “one age fits all” pattern — breakthrough contributions can happen early or be recognized late. The age extremes show how innovation and influence span a lifetime, from youthful passion to a legacy of persistent research.
+
 ## 4️⃣ What are the most affiliated universities and institutions with laureates?
 
 #### 💡 Insights
+
+- 🏆 **Harvard University** leads in Nobel affiliations, with 28 laureates linked to it — the highest among all institutions analyzed.
+
+- 💰 **Columbia** and **Princeton** top the list in terms of median prize amount adjusted, both exceeding **$9M**, indicating not just quantity, but high-value recognition.
+
+- 🇺🇸 The top 10 are overwhelmingly U.S.-based, with only the University of **Cambridge** representing institutions outside the United States.
+
+- 📉 Some schools, like **Caltech**, have fewer affiliations but relatively high median prize values, suggesting fewer but more lucrative awards.
 
 ![4_1](/images/4_1.png)
 
 #### 🤔 So What
 
+- University affiliation remains a strong indicator of Nobel recognition, both in **prestige** and **prize impact**. This reinforces the influence of certain academic ecosystems in fostering groundbreaking research and innovation.
+
 ## 5️⃣ Which organizations and individuals have received multiple Nobel Prizes?
 
 
+#### Incredible Feats
+
+Only four individuals have been awarded the Nobel Prize twice — a rare and prestigious distinction:
+
+- 🧪 Marie Curie: Physics (1903) & Chemistry (1911)
+
+- ⚡ John Bardeen: Physics (1956 & 1972)
+
+- 🧬 Frederick Sanger: Chemistry (1958 & 1980)
+
+- ☮️ Linus Pauling: Chemistry (1954) & Peace (1962)
+
 #### 💡 Insights
+
+- 🏆 A total of **6 recipients** — **4 individuals** and **2 organizations** — have been honored more than once, combining for **13 Nobel Prizes.**
+
+- 📈 **Marie Curie** leads in modern value with over **$15** million, while the **International Committee of the Red Cross** holds the most wins (**3 Nobel Peace Prizes**).
+
+- 🕊️ The Office of the **UN High Commissioner for Refugees (UNHCR)** has also won twice for its humanitarian work.
+
+- 🧬 These laureates span across **Physics, Chemistry,** and **Peace,** with awards given between 1903 and 1981 — showcasing decades of excellence in both scientific advancement and global impact.
+
 
 ![5_1](/images/5_1.png)
 
 #### 🤔 So What
+
+- These rare repeat recipients — both individuals and organizations — reflect exceptional, long-term contributions that transcend time and discipline. Their awards span across decades and categories, emphasizing the value of sustained impact in fields like science, peace, and humanitarian work. Adjusted prize values also highlight how recognition changes in financial terms over time, reminding us to consider both historical and present-day significance when evaluating such honors.
 
 ## Conclusion
 
