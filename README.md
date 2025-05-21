@@ -154,7 +154,7 @@ IF(
 
 ![1_1](/images/1_1.png)
 
-#### 🤔 So What
+#### 📌 Takeaway
 
 These patterns reveal historical funding priorities and may reflect how different fields are valued economically or politically. Adjusted values also underscore the importance of context when comparing award amounts across decades.
 
@@ -170,13 +170,13 @@ These patterns reveal historical funding priorities and may reflect how differen
 
 ![2_1](/images/2_1.png)
 
-#### 🤔 So What
+#### 📌 Takeaway
 
 This timeline highlights how global events can disrupt even long-standing institutions like the Nobel Prize. The post-war increase in awards reflects the growth of scientific research and international cooperation. Understanding this trend is key when comparing prize patterns or analyzing laureate demographics across time.
 
 ## 3️⃣ Who are the youngest and oldest laureates across different categories?
 
-#### 💡 💡 Insights
+#### 💡 Insights
 
 - 🧓 Oldest Laureate: John B. Goodenough received the Nobel Prize in Chemistry at 97, making him the oldest Nobel laureate ever.
 
@@ -188,7 +188,7 @@ This timeline highlights how global events can disrupt even long-standing instit
 
 ![3_1](/images/3_1.png)
 
-#### 🤔 So What
+#### 📌 Takeaway
 
 The Nobel Prize doesn't follow a “one age fits all” pattern — breakthrough contributions can happen early or be recognized late. The age extremes show how innovation and influence span a lifetime, from youthful passion to a legacy of persistent research.
 
@@ -206,7 +206,7 @@ The Nobel Prize doesn't follow a “one age fits all” pattern — breakthrough
 
 ![4_1](/images/4_1.png)
 
-#### 🤔 So What
+#### 📌 Takeaway
 
 University affiliation remains a strong indicator of Nobel recognition, both in **prestige** and **prize impact**. This reinforces the influence of certain academic ecosystems in fostering groundbreaking research and innovation.
 
@@ -238,9 +238,10 @@ Only four individuals have been awarded the Nobel Prize twice — a rare and pre
 
 ![5_1](/images/5_1.png)
 
-#### 🤔 So What
+#### 📌 Takeaway
 
 These rare repeat recipients — both individuals and organizations — reflect exceptional, long-term contributions that transcend time and discipline. Their awards span across decades and categories, emphasizing the value of sustained impact in fields like science, peace, and humanitarian work. Adjusted prize values also highlight how recognition changes in financial terms over time, reminding us to consider both historical and present-day significance when evaluating such honors.
 
-## Conclusion
+## ✅ Conclusion
 
+This project showcases how a century of Nobel Prize history can be distilled into meaningful insights using the power of Excel's analytical tools. Through Power Query, Power Pivot, and DAX, I transformed raw data into a fully interactive dashboard that highlights not only who has won but also how global events, institutions, and individual contributions have shaped the Nobel legacy. Whether it's identifying age extremes among laureates, tracking prize trends over time, or spotlighting institutions with the greatest impact — this analysis underscores how data can tell powerful, human-centered stories when combined with the right tools and questions.
