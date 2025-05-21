@@ -77,6 +77,26 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 
 - 🔢 I created a PivotTables using the Data Model I created with Power Pivot.
 
+- 🏛️ To analyze institutional affiliations from a related query (`nobel_affiliation`), I used DAX measures with `CROSSFILTER` to enable filtering across related tables.
+
+```
+Median Prize Adjusted Aff. :=
+CALCULATE(
+    [Median Prize Adjusted],
+    CROSSFILTER(nobel[nobel_id], nobel_affiliation[nobel_id], BOTH)
+)
+```
+- 👥 To prevent visual errors in charts when no affiliations were found, I wrapped the measure with IF to return 0 instead of blank:
+
+```
+Names Affiliated :=
+IF(
+    ISBLANK(CALCULATE([Names], CROSSFILTER(nobel[nobel_id], nobel_affiliation[nobel_id], BOTH))),
+    0,
+    CALCULATE([Names], CROSSFILTER(nobel[nobel_id], nobel_affiliation[nobel_id], BOTH))
+)
+```
+
 #### 🧮 DAX
 
 - 📊 I added new measures to calculate the median prize and median prize adjusted awarded to laureates.
@@ -90,7 +110,7 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 ```
   = FORMAT(nobel[dateAwarded], "yyyy-mm-dd")
 ```
-- 🧮 then used the `awardYear` column to fill in missing dates, ensuring every laureate had a complete award date.
+- 📅 then used the `awardYear` column to fill in missing dates, ensuring every laureate had a complete award date.
 
 ```
     =IF(
